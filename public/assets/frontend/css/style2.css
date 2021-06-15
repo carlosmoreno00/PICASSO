@@ -1,0 +1,563 @@
+/* ······························FUENTES··································· */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* ·······························HOME···································· */
+
+.home{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/pexels-sam-lion-5709661.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navmenu{
+    position: absolute;
+    right: 0;
+    padding: 1%;
+    width: 40%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em!important;
+}
+
+.navmenu li a{
+    text-decoration: none!important;
+    color: black;
+}
+
+.navmenu li a:hover{
+    text-decoration: none!important;
+    color: black;
+}
+
+.pagetitle{
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9em;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .15em;
+}
+
+.pagedes{
+    margin: 0 auto;
+    width: 100%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .15em;
+}
+
+/* ·······························SECTION1···································· */
+
+.section1{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.section1izq{
+    margin: 0;
+    width: 60%;
+    height: 100%;
+}
+
+.sectiontitle{
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    width: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.sectiontitle4{
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    width: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+    text-align: center;
+}
+
+.paragraph{
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.section1der{
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    background-image: url("../img/pexels-anderson-miranda-2334260.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ·······························SECTION2···································· */
+
+.section2{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.section2izq{
+    margin: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.section2izqimg1{
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+    background-image: url("../img/pexels-francesca-zama-5373737.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transition:all .5s ease-in-out; */
+}
+
+.section2izqimg2{
+    margin: 0;
+    margin-left: 50%;
+    margin-top: -20%;
+    width: 50%;
+    height: 50%;
+    z-index: 999;
+    background-image: url("../img/pexels-francesca-zama-5373737edited.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transition:all .5s ease-in-out; */
+}
+
+/* .section2izqimg1:hover,
+.section2izqimg2:hover{
+    transform:scale(1.1);
+} */
+
+.section2der{
+    margin: 0;
+    width: 50%;
+    height: 100%;
+}
+
+/* ·······························SECTION3···································· */
+
+.section3{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.section3title{
+    margin: 0 auto;
+    padding: 2%;
+    width: 96%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 5em;
+    text-align: center;
+}
+
+.section3contain{
+    display: flex;
+    height: 100%;
+}
+
+
+.section3izq{
+    margin: 0;
+    margin-left: 5%;
+    width: 20%;
+    height: 80%;
+    display: flex;
+}
+
+.section3izqimg{
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    align-self: center;
+    background-image: url("../img/Zara-Logo.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3cen{
+    margin: 0;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section3paragraph{
+    margin: 0 auto;
+    width: 60%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.section3cenimg{
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    align-self: center;
+    background-image: url("../img/logo-springfield.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3der{
+    margin: 0;
+    margin-right: 5%;
+    width: 20%;
+    height: 80%;
+    display: flex;
+}
+
+.section3derimg{
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    align-self: center;
+    background-image: url("../img/585990604f6ae202fedf28d3.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ······························SECTION4····························· */
+.section4{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.section4der{
+    margin: 0;
+    width: 70%;
+    height: 100%;
+}
+
+.section4izq{
+    margin: 0;
+    padding-left: 10%;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/history.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ······························SECTION5······································· */
+
+.section5{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.section5izq{
+    margin: 0;
+    width: 60%;
+    height: 100%;
+}
+
+.section5der{
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    background-image: url("../img/myadvices.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ·······························FOOTER···································· */
+
+@media screen and (max-width:1400px){
+    .paragraph{
+        width: 60%;
+    }
+
+    .section3paragraph{
+        width: 70%;
+    }
+
+    .section3izqimg,
+    .section3derimg{
+        width: 80%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .paragraph{
+        width: 70%;
+    }
+
+    .section3paragraph{
+        width: 80%;
+    }
+
+    .section3izqimg,
+    .section3derimg{
+        width: 80%;
+        height: 15%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    ul{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1030px){
+    .pagetitle{
+        font-size: 8em;
+    }
+
+    .pagedes{
+        font-size: 1.4em;
+    }
+
+    .section1{
+        flex-direction: column;
+        height: 150%;
+    }
+
+    .section1izq{
+        width: 100%;
+    }
+
+    .section1der{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .section2{
+        flex-direction: column;
+        height: 120%;
+    }
+
+    .section2der{
+        order: 0;
+        width: 100%;
+    }
+
+    .section2izqimg1,
+    .section2izqimg2{
+        width: 40%;
+        height: 60%;
+    }
+
+    .section2izq{
+        order: 1;
+        width: 100%;
+    }
+
+    .section3{
+        height: 130%;
+    }
+
+    .section3contain{
+        flex-direction: column;
+    }
+
+    .section3cen{
+        order: 0;
+        width: 100%;
+        height: 30%;
+    }
+
+    .section3cenimg{
+        margin: 0 auto;
+        width: 80%;
+        height: 50%;
+    }
+
+    .section3izq{
+        margin: 0;
+        order: 1;
+        width: 100%;
+        height: 20%;
+    }
+
+    .section3izqimg{
+        margin: 0 auto;
+        width: 20%;
+        height: 40%;
+    }
+
+    .section3der{
+        margin: 0;
+        order: 2;
+        width: 100%;
+        height: 20%;
+    }
+
+    .section3derimg{
+        margin: 0 auto;
+        width: 20%;
+        height: 40%;
+    }
+
+    .section4{
+        flex-direction: column-reverse;
+        height: 150%;
+    }
+
+    .section4der{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .section4izq{
+        margin: 0 auto;
+        width: 100%;
+        background-image: url(../img/historyhor.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .section5{
+        flex-direction: column;
+        height: 150%;
+    }
+
+    .section5izq{
+        width: 100%;
+    }
+
+    .section5der{
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:800px){
+    ul{
+        width: 100%;
+    }
+
+    .paragraph{
+        width: 80%;
+    }
+
+    .section3izqimg{
+        width: 30%;
+    }
+
+    .section3derimg{
+        width: 30%;
+        height: 60%;
+    }
+
+    .sectiontitle4{
+        font-size: 3.8em;
+    }
+}
+
+@media screen and (max-width:570px){
+    .pagetitle{
+        font-size: 6em;
+    }
+
+    .pagedes{
+        font-size: 1.6em;
+    }
+
+    .sectiontitle,
+    .section3title{
+        font-size: 4em;
+    }
+
+    .section3izqimg,
+    .section3derimg{
+        width: 40%;
+    }
+
+    .paragraph{
+        width: 90%;
+    }
+
+    .section2izqimg2{
+        margin-top: -30%;
+    }
+
+    .sectiontitle4{
+        font-size: 2.5em;
+    }
+}

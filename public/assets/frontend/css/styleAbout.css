@@ -1,0 +1,458 @@
+/* ······························FUENTES··································· */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* ·······························HOME···································· */
+
+.home{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/pexels-suliman-sallehi-1540977.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navmenu{
+    position: absolute;
+    right: 0;
+    padding: 1%;
+    width: 40%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em!important;
+}
+
+.navmenu li a{
+    text-decoration: none!important;
+    color: black;
+}
+
+.navmenu li a:hover{
+    text-decoration: none!important;
+    color: black;
+}
+
+.pagetitle{
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 100%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9em;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .15em;
+}
+
+.pagedes{
+    margin: 0 auto;
+    width: 100%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .15em;
+}
+
+/* ·······························SECTION1···································· */
+
+.section1{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.section1izq{
+    margin: 0;
+    width: 60%;
+    height: 100%;
+}
+
+.sectiontitle{
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    width: 100%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 5em;
+    text-align: center;
+}
+
+.paragraph{
+    margin: 0 auto;
+    width: 60%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.section1der{
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    background-image: url(../img/pexels-hassan-ouajbir-1214566.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ·······························SECTION2···································· */
+
+.section2{
+    margin: 0;
+    width: 100%;
+    height: 150%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2title{
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 5em;
+    text-align: center;
+}
+
+.section2paragraph{
+    margin: 0 auto;
+    width: 60%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.section2container{
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.section2camera{
+    margin: 0 auto;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cameraimg{
+    margin: 0 auto;
+    width: 35%;
+    height: 100%;
+    background-image: url("../img/EOS_5D_Mark_III_Extra_tcm86-932817.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transition:all .5s ease-in-out; */
+}
+
+.containertext{
+    margin: 0;
+    width: 50%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+span{
+    font-weight: 500;
+}
+
+.section2objective{
+    margin: 0 auto;
+    width: 50%;
+    height: 90%;
+    display: flex;
+}
+
+.objectiveimg{
+    margin: 0 auto;
+    width: 35%;
+    height: 100%;
+    background-image: url("../img/objetivos-canon-eos-ef.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transition:all .5s ease-in-out; */
+}
+
+/* .cameraimg:hover,
+.objectiveimg:hover{
+    transform:scale(0.9);
+} */
+
+/* ·······························SECTION3···································· */
+
+.section3{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.section3izq{
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/pexels-josh-hild-4424567.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3der{
+    margin: 0;
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width:1400px){
+    .paragraph{
+        width: 70%;
+    }
+
+    .section4paragraph{
+        width: 70%;
+    }
+
+    .section4izqimg,
+    .section4derimg{
+        width: 80%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .cameraimg,
+    .objectiveimg{
+        width: 40%;
+    }
+
+    .section4paragraph{
+        width: 80%;
+    }
+
+    .section4izqimg,
+    .section4derimg{
+        width: 80%;
+        height: 15%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    ul{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1030px){
+    .pagetitle{
+        font-size: 8em;
+    }
+
+    .pagedes{
+        font-size: 1.4em;
+    }
+
+    .section1{
+        flex-direction: column;
+        height: 150%;
+    }
+
+    .section1izq{
+        width: 100%;
+    }
+
+    .section1der{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .section2{
+        height: 140%;
+    }
+
+    .section2container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section2camera{
+        width: 100%;
+    }
+
+    .cameraimg,
+    .objectiveimg{
+        width: 20%;
+        height: 80%;
+    }
+
+    .section2objective{
+        width: 100%;
+    }
+
+    .section3{
+        flex-direction: column-reverse;
+        height: 140%;
+    }
+
+    .section3izq{
+        width: 100%;
+    }
+
+    .section3der{
+        width: 100%;
+    }
+
+    .section4{
+        height: 130%;
+    }
+
+    .section4contain{
+        flex-direction: column;
+    }
+
+    .section4cen{
+        order: 0;
+        width: 100%;
+        height: 30%;
+    }
+
+    .section4cenimg{
+        margin: 0 auto;
+        width: 80%;
+        height: 50%;
+    }
+
+    .section4izq{
+        margin: 0;
+        order: 1;
+        width: 100%;
+        height: 20%;
+    }
+
+    .section4izqimg{
+        margin: 0 auto;
+        width: 20%;
+        height: 40%;
+    }
+
+    .section4der{
+        margin: 0;
+        order: 2;
+        width: 100%;
+        height: 20%;
+    }
+
+    .section4derimg{
+        margin: 0 auto;
+        width: 20%;
+        height: 40%;
+    }
+}
+
+@media screen and (max-width:800px){
+    ul{
+        width: 100%;
+    }
+
+    .paragraph{
+        width: 80%;
+    }
+
+    .section3izq{
+        height: 90%;
+    }
+
+    .section4izqimg{
+        width: 30%;
+    }
+
+    .section4derimg{
+        width: 30%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width:570px){
+    .pagetitle{
+        font-size: 6em;
+    }
+
+    .pagedes{
+        font-size: 1.6em;
+    }
+
+    .sectiontitle,
+    .section2title{
+        font-size: 4em;
+    }
+
+    .paragraph,
+    .section2paragraph{
+        width: 90%;
+    }
+
+    .section2{
+        height: 150%;
+    }
+
+    .cameraimg,
+    .objectiveimg{
+        width: 40%;
+    }
+
+    .section4title{
+        font-size: 4em;
+    }
+
+    .section4izqimg,
+    .section4derimg{
+        width: 40%;
+    }
+}
